@@ -22,3 +22,16 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+* Execute docker command
+
+-> build image superAppEngineer
+docker compose build
+
+-> start application
+docker compose up
+
+
+-> To go to webserver app into image 
+docker compose -f docker-compose.yml run -ti --entrypoint bash  webserver
+
